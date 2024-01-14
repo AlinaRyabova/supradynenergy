@@ -1,0 +1,22 @@
+/* header styles */
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0 80px;
+}
+
+.header__logo {
+  transition: all var(--transition-dur-and-func);
+}
+
+.header__logo-text {
+  display: none;
+}
+
+.header__logo:hover,
+.header__logo:focus {
+  transform: scale(1.1);
+  outline: none;
+}
